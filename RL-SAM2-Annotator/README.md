@@ -114,11 +114,11 @@ A: 可以，只需提供对应的分割数据集，超参数可能需要微调�
 如果您在研究中使用了本代码，请引用以下论文：
 
 bibtex
-@article{your_paper,
-  title={融合首尾帧筛选视频生成与深度强化学习主动标注的钢材表面缺陷检测数据扩充框架},
-  author={作者},
-  journal={期刊/会议},
-  year={2025}
+@article{,
+  title={视频生成与深度强化学习主动标注的钢材表面缺陷检测数据扩充框架},
+  author={Maosheng LI},
+  journal={},
+  year={2026}
 }
 🤝 贡献
 欢迎提交 Issue 和 Pull Request。请确保通过所有单元测试。
