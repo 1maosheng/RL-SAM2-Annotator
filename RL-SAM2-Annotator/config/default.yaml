@@ -1,0 +1,35 @@
+# 数据集路径
+data:
+  train_image_dir: "/path/to/NEU_Seg/images/training"
+  train_gt_dir: "/path/to/NEU_Seg/annotations/training"
+
+# 图像与动作空间
+image_size: 128
+grid_size: 16           # 产生 16x16 = 256 个离散动作
+max_steps: 10           # 每张图像最大交互步数
+state_history: 3        # 历史掩码保留数量
+
+# DQN 超参数
+gamma: 0.99
+epsilon_start: 0.9
+epsilon_end: 0.05
+epsilon_decay: 5000     # 按全局步数衰减
+batch_size: 32
+memory_size: 10000
+target_update_freq: 1000
+learning_rate: 0.0001
+
+# 奖励惩罚系数
+penalty_bg: -0.5
+penalty_rep: -0.1
+penalty_dec: -0.3
+min_reward_clip: -0.5
+
+# 训练
+epochs: 30
+model_save_path: "checkpoints/rl_sam2_annotator.pt"
+log_interval: 10
+
+# SAM2 模型路径
+sam2_checkpoint: "./checkpoints/sam2.1_hiera_large.pt"
+sam2_config: "configs/sam2.1/sam2.1_hiera_l.yaml"

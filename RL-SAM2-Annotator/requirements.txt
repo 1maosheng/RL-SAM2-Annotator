@@ -1,0 +1,8 @@
+torch>=2.0.0
+numpy>=1.21
+Pillow>=9.0
+matplotlib>=3.5
+tqdm>=4.64
+scikit-learn>=1.0
+opencv-python  # 可选
+# SAM2 的依赖需按官方文档安装，可能需要额外指定
