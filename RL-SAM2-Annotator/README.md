@@ -124,20 +124,4 @@ bibtex
 欢迎提交 Issue 和 Pull Request。请确保通过所有单元测试。
 
 📄 许可证
-MIT License © 2025 [Maosheng Li]
-
-text
-
----
-
-这个版本的 README 更加**结构化、信息丰富**，包含了：
-
-- 徽章（badges）提升专业感
-- 清晰的特性列表
-- 实验结果概览（用表格展示）
-- 完整的目录树
-- 从克隆到推理的步骤化指南
-- 配置参数表
-- 常见问题（FAQ）
-- 测试命令
-- 引用和许可证
+MIT License © 2026 [Maosheng Li]
